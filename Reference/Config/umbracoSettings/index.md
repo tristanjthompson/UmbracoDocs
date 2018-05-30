@@ -432,6 +432,12 @@ The authentication cookie which is set in the browser when a backoffice user log
 **`<authCookieDomain>`**
 The authentication cookie which is set in the browser when a backoffice user logs in is automatically set to the current domain.  This setting is excluded from the configuration file but can be added in if a different domain is required.
 
+**`<authCookieName>`**
+The authentication cookie which is set in the browser when a back-office user logs in, and defaults to `UMB_UCONTEXT`.  This setting is excluded from the configuration file, but can be added in if a different cookie name needs to be set.
+
+**`<authCookieDomain>`**
+The authentication cookie which is set in the browser when a back-office user logs in is automatically set to the current domain.  This setting is excluded from the configuration file, but can be added in if a different domain is required.
+
 ## RequestHandler
 
 The options in the request handler let us do some quite useful things, like setting domain prefixes, deciding whether or not to use trailing slashes and setting URL replacement for special characters.
